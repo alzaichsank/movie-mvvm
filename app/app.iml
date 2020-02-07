@@ -25,7 +25,7 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/Volumes/work/repo/pribadi/kursus/movie/app/src/debug/java;/Volumes/work/repo/pribadi/kursus/movie/app/src/release/kotlin;/Volumes/work/repo/pribadi/kursus/movie/app/src/release/java;/Volumes/work/repo/pribadi/kursus/movie/app/src/debugAndroidTest/kotlin;/Volumes/work/repo/pribadi/kursus/movie/app/src/debugUnitTest/kotlin;/Volumes/work/repo/pribadi/kursus/movie/app/src/releaseUnitTest/kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/Volumes/work/repo/pribadi/kursus/movie-mvvm/app/src/debug/java;/Volumes/work/repo/pribadi/kursus/movie-mvvm/app/src/release/kotlin;/Volumes/work/repo/pribadi/kursus/movie-mvvm/app/src/release/java;/Volumes/work/repo/pribadi/kursus/movie-mvvm/app/src/debugAndroidTest/kotlin;/Volumes/work/repo/pribadi/kursus/movie-mvvm/app/src/debugUnitTest/kotlin;/Volumes/work/repo/pribadi/kursus/movie-mvvm/app/src/releaseUnitTest/kotlin">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>
