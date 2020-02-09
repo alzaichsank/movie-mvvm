@@ -2,6 +2,7 @@ package id.alik.movie_mvvm.splash
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import id.alik.movie_mvvm.R
 
 class SplashscreenActivity : AppCompatActivity() {
 

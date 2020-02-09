@@ -1,6 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#FF5A5F</color>
+    <color name="colorPrimaryDark">#F6E8D6</color>
+    <color name="colorAccent">#D6999E</color>
+    <color name="colorPrimaryDarkAlternate">#9e9e9e</color>
+
+    <color name="colorLogin">#C04040</color>
+    <color name="colorLoginDark">#b72e2d</color>
+
+    <color name="colorDashboardBox">#C04040</color>
+    <color name="colorDashboardBoxDark">#9b2625</color>
+    <color name="colorDashboardBoxDarker">#7b1d1c</color>
+
+    <color name="colorPoint">#FFE0E1</color>
+    <color name="colorPointDivider">#ff9696</color>
+
+    <color name="colorButton">#faaf3f</color>
+    <color name="colorButtonDark">#d29130</color>
+    <color name="colorButtonDisable">#82fff8e7</color>
+
+    <color name="colorTextDark">#313131</color>
+    <color name="colorTextTitle">#25282B</color>
+    <color name="colorTextSubTitle">#616161</color>
+    <color name="colorTextForm">#66696D</color>
+    <color name="colorInactive">#A4A7AB</color>
+    <color name="colorTextDefault">#E4E8EC</color>
+    <color name="colorDivider">#F3F7FB</color>
+    <color name="colorSuccess">#1BB343</color>
+    <color name="colorError">#CF212A</color>
+
+    <color name="colorBackground">#fff2f2f2</color>
+    <color name="colorBackgroundDark">#dedede</color>
+    <color name="colorSeparator">#d9d3d3</color>
+    <color name="colorShimmer">#bdbdbd</color>
+
+    <!--for transaction status-->
+    <color name="status_failed">#F61721</color>
+    <color name="status_on_progress">#E3822F</color>
+    <color name="status_done">#1258AF</color>
+    <color name="status_done2">#15af12</color>
+
+    <color name="fab_red">#E31E25</color>
+    <color name="text_grey">#9e9e9e</color>
+    <color name="text_slight_black">#2f2e2f</color>
+    <color name="colorYellow">#FFFC73</color>
+
+    <color name="tab_check">#FFFFFF</color>
+    <color name="tab_uncheck">#a3b0b1</color>
+    <color name="tab_uncheck2">#cacaca</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_page_background">#F5F5F5</color>
+    <color name="color_separator">#d9d3d3</color>
+    <color name="color_black">#25282B</color>
+    <color name="color_blue">#3394CC</color>
+    <color name="color_green">#1BB343</color>
+    <color name="color_orange">#FF7F40</color>
+    <color name="color_icon_gray">#ABB6C7</color>
+    <color name="color_promo">#33FFDD</color>
+    <color name="color_text_black">#3c4953</color>
+    <color name="colorSilver">#a9a9a9</color>
+
+    <!--login page-->
+    <color name="login_bg">#f4f4f4</color>
+    <color name="color_button">#faaf3f</color>
+    <color name="color_red_login">#e31e25</color>
+
+    <color name="colorFab">#CFD96D</color>
+    <color name="colorBgTotal">#D8E2B2</color>
+    <color name="colorSplash">#38A551</color>
+    <color name="colorSplashDark">#2d8642</color>
+    <color name="colorSplashDark2">#2d8642</color>
+    <color name="colorGoogleLogin">#d6492f</color>
+
+    <color name="colorPrimary2">#C62828</color>
+    <color name="colorPrimary3">#ff5f5f</color>
+    <color name="colorPrimaryDark2">#c62828</color>
+    <color name="colorAccent2">#F3F3F3</color>
+    <color name="colorAccent3">#FFE53935</color>
+    <color name="colorAccentDark">#EEAC00</color>
+
+    <color name="colorSelector">#c7ac27</color>
+    <color name="colorBottomNav">#3B3B3B</color>
+    <color name="colorText">#313131</color>
+    <color name="colorText2">#616161</color>
+    <color name="colorText3">#4d4d4d</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorChat">#eeeeee</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorCard">#fafafa</color>
+    <color name="colorCard2">#fafafa</color>
+
+    <color name="colorTransparentProduct">#88000000</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorBackgroundTrans">#9b353535</color>
+    <color name="colorBackgroundTrans2">#82fff8e7</color>
+    <color name="colorGrey">#dedede</color>
+    <color name="colorGrey2">#b7b7b7</color>
+    <color name="colorGrey3">#acacac</color>
+    <color name="colorGrey4">#dadada</color>
+    <color name="colorBack">#f8f8f8</color>
+    <color name="colorBack2">#cfcfcf</color>
+    <color name="colorBack3">#ececec</color>
+    <color name="colorBack4">#f5f5f5</color>
+    <color name="colorBack5">#EBEBEB</color>
+    <color name="colorBack6">#E6F9FF</color>
+
+    <!-- Screens background color-->
+    <color name="bg_slider_screen1">#f4b241</color>
+    <color name="bg_slider_screen2">#16bc7d</color>
+    <color name="bg_slider_screen3">#203d8c</color>
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#ffa000</color>
+    <color name="dot_inactive_screen2">#008c57</color>
+    <color name="dot_inactive_screen3">#0e1e49</color>
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#f9c772</color>
+    <color name="dot_active_screen2">#74f7c5</color>
+    <color name="dot_active_screen3">#3a67e0</color>
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+    </array>
 </resources>
