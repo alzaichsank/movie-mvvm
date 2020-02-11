@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jakewharton.rxbinding2:rxbinding-support-v4-kotlin:2.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50ec988201a05abb24edb655760b96a3/jetified-rxbinding-support-v4-kotlin-2.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50ec988201a05abb24edb655760b96a3/jetified-rxbinding-support-v4-kotlin-2.1.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.rxbinding2/rxbinding-support-v4-kotlin/2.1.1/f3ee2b112820e77280bfb20e5ba7aac9dc763f0c/rxbinding-support-v4-kotlin-2.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.rxbinding2/rxbinding-support-v4-kotlin/2.1.1/953b65dac5b53271b797550a45b455382e12ab54/rxbinding-support-v4-kotlin-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -3,12 +3,12 @@ ext {
  * created by Alza Ichsan Kurniwan 2019**/
 
     /*app version*/
-    compileVersion = 28
-    targetVersion = 28
+    compileVersion = 29
+    targetVersion = 29
     minVersion = 21
-    buildVersion = '28.0.3'
-    versionCode = 67
-    versionName = "1.0.0"
+    buildVersion = '29.0.2'
+    versionCode = 1
+    versionName = "0.0.1"
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     /*Android Map*/
     mapsVersion = '0.5+'
