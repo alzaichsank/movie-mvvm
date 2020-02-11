@@ -1,0 +1,227 @@
+ext {
+/** test dependencis for all module
+ * created by Alza Ichsan Kurniwan 2019**/
+
+    /*app version*/
+    compileVersion = 28
+    targetVersion = 28
+    minVersion = 21
+    buildVersion = '28.0.3'
+    versionCode = 67
+    versionName = "1.0.0"
+    testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    /*Android Map*/
+    mapsVersion = '0.5+'
+    /*Kotlin */
+    kotlinVersion = '1.3.50'
+    ankoVersion = '0.10.5'
+    /*testing version*/
+    testJunitVersion = '4.12'
+    testRunnerVersion = '1.2.0'
+    testEspresoVersion = '3.2.0'
+    /*Rx libaray*/
+    rxJava2Version = '2.1.9'
+    rxJava2AndroidVersion = '2.0.2'
+    rxJavaVersion = '1.2.1'
+    rxNavi2Version = '2.0'
+    rxBindingVersion = '2.1.1'
+    rxJavaAndroidVersion = '1.2.1'
+    rxJavaVersion = '1.3.0'
+    /*Networking*/
+    retrofitVersion = '2.4.0'
+    gsonVersion = '2.4.0'
+    retrofitRxJava2AdapterVersion = '2.4.0'
+    retrofitRxJavaAdapterVersion = '2.4.0'
+    okHttpVersion = '3.10.0'
+    logginInterceptorVersion = '3.12.1'
+    /*exclude librarie*/
+    jodaTimeVersion = '2.9.9'
+    easyPermissionsVersion = '1.2.0'
+    rippleVersion = '1.0.2'
+    daimajiaVersion = '1.1.5' //1.1.5@aar'
+    nineoldandroidsVersion = '2.4.0'
+    rengwuxianMatrialVersion = '2.1.4'
+    mikepenzIconsVersion = '3.0.3' //3.0.3@aar'
+    hugeterryCoordinatorVersion = '1.2.0'
+    roughikeBottomBarVersion = '2.3.1'
+    lzyzsdRandomcolorVerion = '1.0.0'
+    zhanghaiRatingVersion = '1.3.1'
+    agrawalsuneetLoadingVersion = '1.1'
+    intentVersion = '1.0.2'
+    bouncyCastleVersion = '1.46'
+    intuitVersion = '1.0.5'
+    slideDialogVersion = '2.2.8'
+    chuckVersion = '1.1.0'
+    deepLinkVersion = '3.1.1'
+    eventBusVersion = '3.1.1'
+    jwVersion = '3.4.3+'
+    imaVersion = '17.2.0'
+    adsVersion = '3.10.6'
+    firebaseVersion = '17.0.0'
+    googlePlayVersion = '17.0.0'
+    smackVersion = '4.3.1'
+    tusAndroidClientVersion = '0.1.8'
+    tusJavaClientVersion = '0.4.1'
+    shimmerVersion = '0.5.0'
+    avatarGenVersion = '1.0.1'
+
+    /*support library version*/
+    supportLibrary = '22.2.1'
+    supportVersion = '28.0.0'
+    androidxVersionConstraint = '1.1.3'
+    androidxVersion = '1.0.0'
+    androidxMultidexVersion = '2.0.1'
+    androidxConstraintVersion = '1.1.2'
+    androidxEspressoVersion = '3.1.0'
+    androidxRunnerVersion = '1.1.0'
+    placeCompatVersion = '1.0.0'
+    /* bindingdata version*/
+    butterknifeVersion = '10.1.0'
+    /*image library version*/
+    picassoVersion = '2.3.2'
+    glideVersion = '4.9.0'
+    photoViewVersion = '2.1.4'
+    circleImageVersion = '2.2.0'
+    roundedImageVersion = '2.3.0'
+    compressorVersion = '2.1.0'
+    /*crashlytics version*/
+    crashlyticsVersion = '2.9.6' //2.9.1@aar'
+
+    testLibraries = [
+            jUnit   : [group: 'junit', name: 'junit', version: testJunitVersion],
+            runner  : [group: 'androidx.test', name: 'runner', version: testRunnerVersion],
+            espresso: [group: 'androidx.test.espresso', name: 'espresso-core', version: testEspresoVersion],
+    ]
+
+    kotlinLibraries = [
+            kotlin            : [group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib-jdk8', version: kotlinVersion],
+            kotlinReflect     : [group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: kotlinVersion],
+            ankoSdk15         : [group: 'org.jetbrains.anko', name: 'anko-sdk15', version: ankoVersion],
+            ankoSdk15Listeners: [group: 'org.jetbrains.anko', name: 'anko-sdk15-listeners', version: ankoVersion],
+            ankoSupport       : [group: 'org.jetbrains.anko', name: 'anko-support-v4', version: ankoVersion],
+            ankoAppcompat     : [group: 'org.jetbrains.anko', name: 'anko-appcompat-v7', version: ankoVersion],
+    ]
+
+    rxLibraries = [
+            rxJava           : [group: 'io.reactivex', name: 'rxjava', version: rxJavaVersion],
+            rxAndroid        : [group: 'io.reactivex', name: 'rxandroid', version: rxJavaAndroidVersion],
+            rxJava2          : [group: 'io.reactivex.rxjava2', name: 'rxjava', version: rxJava2Version],
+            rxAndroid2       : [group: 'io.reactivex.rxjava2', name: 'rxandroid', version: rxJava2AndroidVersion],
+            rxNavi2          : [group: 'com.trello.navi2', name: 'navi', version: rxNavi2Version],
+            rxBinding2       : [group: 'com.jakewharton.rxbinding2', name: 'rxbinding-kotlin', version: rxBindingVersion],
+            rxBinding2Support: [group: 'com.jakewharton.rxbinding2', name: 'rxbinding-support-v4-kotlin', version: rxBindingVersion],
+    ]
+
+    networkLibraries = [
+            retrofit      : [group: 'com.squareup.retrofit2', name: 'retrofit', version: retrofitVersion],
+            gsonConverter : [group: 'com.squareup.retrofit2', name: 'converter-gson', version: retrofitVersion],
+            rxJavaAdapter : [group: 'com.squareup.retrofit2', name: 'adapter-rxjava', version: retrofitRxJavaAdapterVersion],
+            rxJava2Adapter: [group: 'com.squareup.retrofit2', name: 'adapter-rxjava2', version: retrofitRxJava2AdapterVersion],
+            okhttp        : [group: 'com.squareup.okhttp3', name: 'okhttp', version: okHttpVersion],
+            interceptor   : [group: 'com.squareup.okhttp3', name: 'logging-interceptor', version: logginInterceptorVersion],
+    ]
+
+    androidxLibraries = [
+            appCompat        : [group: 'androidx.appcompat', name: 'appcompat', version: androidxVersion],
+            cardView         : [group: 'androidx.cardview', name: 'cardview', version: androidxVersion],
+            coordinatorLayout: [group: 'androidx.coordinatorlayout', name: 'coordinatorlayout', version: androidxVersion],
+            annotation       : [group: 'androidx.annotation', name: 'annotation', version: androidxVersion],
+            recyclerView     : [group: 'androidx.recyclerview', name: 'recyclerview', version: androidxVersion],
+            supportv13       : [group: 'androidx.legacy', name: 'legacy-support-v13', version: androidxVersion],
+            supportv4        : [group: 'androidx.legacy', name: 'legacy-support-v4', version: androidxVersion],
+            supportUtils     : [group: 'androidx.legacy', name: 'legacy-support-core-utils', version: androidxVersion],
+            design           : [group: 'com.google.android.material', name: 'material', version: androidxVersion],
+            multidex         : [group: 'androidx.multidex', name: 'multidex', version: androidxMultidexVersion],
+            constraintLayout : [group: 'androidx.constraintlayout', name: 'constraintlayout', version: androidxConstraintVersion],
+            vectorDrawable   : [group: 'androidx.vectordrawable', name: 'vectordrawable-animated', version: androidxVersion],
+            percentLayout    : [group: 'androidx.percentlayout', name: 'percentlayout', version: androidxVersion],
+            mediarouter      : [group: 'androidx.mediarouter', name: 'mediarouter', version: androidxVersion],
+    ]
+
+    libraries = [
+            gson                     : [group: 'com.google.code.gson', name: 'gson', version: gsonVersion],
+            animIntent               : [group: 'com.github.alzaichsank', name: 'IntentAnimation', version: intentVersion],
+            shimmer                  : [group: 'com.facebook.shimmer', name: 'shimmer', version: shimmerVersion],
+            intuitSdp                : [group: 'com.intuit.sdp', name: 'sdp-android', version: intuitVersion],
+            intuitSsp                : [group: 'com.intuit.ssp', name: 'ssp-android', version: intuitVersion],
+            nineoldAndroids          : [group: 'com.nineoldandroids', name: 'library', version: nineoldandroidsVersion],
+            daimajiaSlider           : [group: 'com.daimajia.slider', name: 'library', version: daimajiaVersion],
+            chuck                    : [group: 'com.readystatesoftware.chuck', name: 'library', version: chuckVersion],
+            chuckNoOp                : [group: 'com.readystatesoftware.chuck', name: 'library-no-op', version: chuckVersion],
+            deepLink                 : [group: 'com.airbnb', name: 'deeplinkdispatch', version: deepLinkVersion],
+            deepLinkDispatchProcessor: [group: 'com.airbnb', name: 'deeplinkdispatch-processor', version: deepLinkVersion],
+            eventBus                 : [group: 'org.greenrobot', name: 'eventbus', version: eventBusVersion],
+            butterKnife              : [group: 'com.jakewharton', name: 'butterknife', version: butterknifeVersion],
+            materialEdittext         : [group: 'com.rengwuxian.materialedittext', name: 'library', version: rengwuxianMatrialVersion],
+            mikepenzIconics          : [group: 'com.mikepenz', name: 'iconics-core', version: mikepenzIconsVersion],
+            coordinatortablayout     : [group: 'cn.hugeterry.coordinatortablayout', name: 'coordinatortablayout', version: hugeterryCoordinatorVersion],
+            roughikeBottomar         : [group: 'com.roughike', name: 'bottom-bar', version: roughikeBottomBarVersion],
+            lzyzsdRandom             : [group: 'com.github.lzyzsd.randomcolor', name: 'library', version: lzyzsdRandomcolorVerion],
+            materialRatingbar        : [group: 'me.zhanghai.android.materialratingbar', name: 'library', version: zhanghaiRatingVersion],
+            dotsloader               : [group: 'com.agrawalsuneet.androidlibs', name: 'dotsloader', version: agrawalsuneetLoadingVersion],
+            avatarGenerator          : [group: 'com.amulyakhare', name: 'com.amulyakhare.textdrawable', version: avatarGenVersion],
+    ]
+
+    jwLibraries = [
+            core      : [group: 'com.longtailvideo.jwplayer', name: 'jwplayer-core', version: jwVersion],
+            common    : [group: 'com.longtailvideo.jwplayer', name: 'jwplayer-common', version: jwVersion],
+            imaJw     : [group: 'com.longtailvideo.jwplayer', name: 'jwplayer-ima', version: jwVersion],
+            chromecast: [group: 'com.longtailvideo.jwplayer', name: 'jwplayer-chromecast', version: jwVersion],
+    ]
+
+    tusLibraries = [
+            tusClient: [group: 'io.tus.android.client', name: 'tus-android-client', version: tusAndroidClientVersion],
+            tusJava  : [group: 'io.tus.java.client', name: 'tus-java-client', version: tusJavaClientVersion]
+    ]
+
+    adsLibraries = [
+            imaAds : [group: 'com.google.android.gms', name: 'play-services-ads', version: imaVersion],
+            tusJava: [group: 'com.google.ads.interactivemedia.v3', name: 'interactivemedia', version: adsVersion]
+    ]
+
+    firebaseLibraries = [
+            core     : [group: 'com.google.firebase', name: 'firebase-core', version: firebaseVersion],
+            analytics: [group: 'com.crashlytics.sdk.android', name: 'crashlytics', version: crashlyticsVersion],
+    ]
+
+    playServiceLibraries = [
+            authPlayService         : [group: 'com.google.android.gms', name: 'play-services-auth', version: googlePlayVersion],
+            basePlayService         : [group: 'com.google.android.gms', name: 'play-services-base', version: googlePlayVersion],
+            castPlayService         : [group: 'com.google.android.gms', name: 'play-services-cast', version: googlePlayVersion],
+            castFrameworkPlayService: [group: 'com.google.android.gms', name: 'play-services-cast-framework', version: googlePlayVersion],
+            locationPlayService     : [group: 'com.google.android.gms', name: 'play-services-location', version: googlePlayVersion],
+            mapsPlayService         : [group: 'com.google.android.gms', name: 'play-services-maps', version: googlePlayVersion],
+            placesPlayService       : [group: 'com.google.android.gms', name: 'play-services-places', version: googlePlayVersion],
+            analyticsPlayService    : [group: 'com.google.android.gms', name: 'play-services-analytics', version: googlePlayVersion],
+    ]
+
+    imageLibraries = [
+            picasso         : [group: 'com.squareup.picasso', name: 'picasso', version: picassoVersion],
+            glide           : [group: 'com.github.bumptech.glide', name: 'glide', version: glideVersion],
+            glideIntegration: [group: 'com.github.bumptech.glide', name: 'okhttp3-integration', version: glideVersion],
+            photoView       : [group: 'com.github.chrisbanes', name: 'PhotoView', version: photoViewVersion],
+            circleImage     : [group: 'de.hdodenhof', name: 'circleimageview', version: circleImageVersion],
+            roundedImage    : [group: 'com.makeramen', name: 'roundedimageview', version: roundedImageVersion],
+            compressor      : [group: 'id.zelory', name: 'compressor', version: compressorVersion],
+    ]
+
+    compiler = [
+
+            glideCompiler      : [group: 'com.github.bumptech.glide', name: 'compiler', version: glideVersion],
+            butterKnifeCompiler: [group: 'com.jakewharton', name: 'butterknife-compiler', version: butterknifeVersion],
+    ]
+
+    mapLibraries = [
+            map: [group: 'com.google.maps.android', name: 'android-maps-utils', version: mapsVersion],
+    ]
+
+    smackLibraries = [
+            java7            : [group: 'org.igniterealtime.smack', name: 'smack-java7', version: smackVersion],
+            tcp              : [group: 'org.igniterealtime.smack', name: 'smack-tcp', version: smackVersion],
+            im               : [group: 'org.igniterealtime.smack', name: 'smack-im', version: smackVersion],
+            extensions       : [group: 'org.igniterealtime.smack', name: 'smack-extensions', version: smackVersion],
+            core             : [group: 'org.igniterealtime.smack', name: 'smack-core', version: smackVersion],
+            androidExtensions: [group: 'org.igniterealtime.smack', name: 'smack-android-extensions', version: smackVersion],
+            experimental     : [group: 'org.igniterealtime.smack', name: 'smack-experimental', version: smackVersion],
+    ]
+}
