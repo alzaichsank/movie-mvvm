@@ -1,4 +1,4 @@
-package id.alik.movie_mvvm.splash
+package id.alik.movie_mvvm.ui.splash
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

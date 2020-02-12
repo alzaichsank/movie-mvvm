@@ -93,6 +93,7 @@ dependencies {
     implementation androidxLibraries.multidex
     implementation androidxLibraries.percentLayout
     implementation androidxLibraries.mediarouter
+    implementation androidxLibraries.lifecycle
 
     implementation kotlinLibraries.kotlin
     implementation kotlinLibraries.kotlinReflect

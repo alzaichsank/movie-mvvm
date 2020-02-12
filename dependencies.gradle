@@ -86,6 +86,8 @@ ext {
     compressorVersion = '2.1.0'
     /*crashlytics version*/
     crashlyticsVersion = '2.9.6' //2.9.1@aar'
+    /*lifemodel*/
+    archLifecycleVersion = '2.1.0'
 
     testLibraries = [
             jUnit   : [group: 'junit', name: 'junit', version: testJunitVersion],
@@ -124,6 +126,8 @@ ext {
     androidxLibraries = [
             appCompat        : [group: 'androidx.appcompat', name: 'appcompat', version: androidxVersion],
             cardView         : [group: 'androidx.cardview', name: 'cardview', version: androidxVersion],
+            lifecycle        : [group: 'androidx.lifecycle', name: 'lifecycle-viewmodel', version: archLifecycleVersion],
+            lifecycleExt     : [group: 'androidx.lifecycle', name: 'lifecycle-extensions', version: archLifecycleVersion],
             coordinatorLayout: [group: 'androidx.coordinatorlayout', name: 'coordinatorlayout', version: androidxVersion],
             annotation       : [group: 'androidx.annotation', name: 'annotation', version: androidxVersion],
             recyclerView     : [group: 'androidx.recyclerview', name: 'recyclerview', version: androidxVersion],
