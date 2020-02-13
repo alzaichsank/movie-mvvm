@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Movie-mvvm</string>
+    <string name="tv_movie">Movie</string>
 </resources>

@@ -94,6 +94,7 @@ dependencies {
     implementation androidxLibraries.percentLayout
     implementation androidxLibraries.mediarouter
     implementation androidxLibraries.lifecycle
+    implementation androidxLibraries.lifecycleExt
 
     implementation kotlinLibraries.kotlin
     implementation kotlinLibraries.kotlinReflect

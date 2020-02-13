@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_menu_pos"
+        android:icon="@drawable/ic_vect_movie"
+        android:title="@string/tv_movie"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/main_menu_order"
+        android:icon="@drawable/ic_vect_favorite"
+        android:title="@string/tv_movie"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/main_menu_account"
+        android:icon="@drawable/ic_vect_account"
+        android:title="account"
+        app:showAsAction="always|withText" />
+</menu>
