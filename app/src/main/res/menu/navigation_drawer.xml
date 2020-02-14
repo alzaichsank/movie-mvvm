@@ -3,18 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/main_menu_pos"
+        android:id="@+id/main_menu_movie"
         android:icon="@drawable/ic_vect_movie"
         android:title="@string/tv_movie"
         app:showAsAction="always|withText" />
+
     <item
-        android:id="@+id/main_menu_order"
-        android:icon="@drawable/ic_vect_favorite"
-        android:title="@string/tv_movie"
+        android:id="@+id/main_menu_tv"
+        android:icon="@drawable/ic_vect_tv"
+        android:title="@string/tv_show"
         app:showAsAction="always|withText" />
+
     <item
-        android:id="@+id/main_menu_account"
-        android:icon="@drawable/ic_vect_account"
-        android:title="account"
+        android:id="@+id/main_menu_favorite"
+        android:icon="@drawable/ic_vect_favorite"
+        android:title="@string/tv_favorite"
         app:showAsAction="always|withText" />
 </menu>
