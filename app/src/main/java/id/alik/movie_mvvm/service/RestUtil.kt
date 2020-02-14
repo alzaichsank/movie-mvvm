@@ -1,5 +1,6 @@
-package id.alik.movie_mvvm.util
+package id.alik.movie_mvvm.service
 
+import id.alik.movie_mvvm.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -8,7 +9,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 
 class RestUtil private constructor() {
-    private val API_BASE_URL = "http://api.themoviedb.org/"
     val retrofit: Retrofit
 
     init {
@@ -17,7 +17,7 @@ class RestUtil private constructor() {
         val httpClient = OkHttpClient.Builder().addInterceptor(interceptor).build()
 
         val builder = Retrofit.Builder()
-            .baseUrl(API_BASE_URL)
+            .baseUrl(BuildConfig.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
 

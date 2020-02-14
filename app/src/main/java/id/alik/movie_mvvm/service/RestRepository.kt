@@ -1,4 +1,4 @@
-package id.alik.movie_mvvm.util
+package id.alik.movie_mvvm.service
 
 import id.alik.movie_mvvm.data.server.ApiService
 import id.alik.movie_mvvm.data.server.ApiServiceManager
