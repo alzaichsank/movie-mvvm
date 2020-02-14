@@ -10,18 +10,16 @@ class ApiServiceManager(
     private val apiService: ApiService
 ){
     fun emitterMovie(
-        keyword: String,
         apiKey: String
     ): Observable<MovieResponse> {
-        return Observable.create {
+        return Observable.create { emitter ->
             apiService.getMovie(
-                keyword,
                 apiKey
             ).subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe( {
                     if (it.results != null) {
-                        it
+                        emitter.onNext(it)
                     }
                 },{
                     Logger.debug("cek error : $it")

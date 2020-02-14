@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout_movie"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <com.google.android.material.card.MaterialCardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/medium_small_margin"
+        android:background="@drawable/bg_border_black"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="@dimen/medium_margin"
+        card_view:cardCornerRadius="@dimen/_8sdp">
+
+        <RelativeLayout
+            android:id="@+id/rl_movie_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_poster"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/ic_vect_broken_image" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_image_view"
+                android:background="@color/colorWhite">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/gs_bold"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:padding="@dimen/medium_margin"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/not_so_huge_font_size"
+                    tools:text="hallo film " />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/medium_margin"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_border_black"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/medium_margin">
+
+                    <ImageView
+                        android:id="@+id/iv_start"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        app:srcCompat="@drawable/ic_vect_start_gold" />
+
+                    <TextView
+                        android:id="@+id/tv_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/gs_bold"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/medium_font_size"
+                        tools:text="2D" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/medium_margin"
+                    android:background="@drawable/bg_border_black"
+                    android:fontFamily="@font/gs_bold"
+                    android:gravity="center"
+                    android:padding="@dimen/medium_margin"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/medium_font_size"
+                    tools:text="2D" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

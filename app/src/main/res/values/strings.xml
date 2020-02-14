@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Movie-mvvm</string>
 
     <string name="simple_date_format_file_name">yyyyMMdd_HHmmss</string>
     <string name="transaction_details_today_format">Today, %1$s</string>
@@ -10,4 +9,7 @@
     <string name="tv_movie">Movie</string>
     <string name="tv_show">Tv Show</string>
     <string name="tv_favorite">Favorite</string>
+    <string name="tv_server_error">Server Error</string>
+    <string name="tv_message_failed_reload">Communication with the server failed, please refresh</string>
+    <string name="tv_refresh">Refresh</string>
 </resources>

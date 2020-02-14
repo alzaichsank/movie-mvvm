@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_container_empty_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/image_view_chat_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/ic_vect_signal_no_internet"
+        />
+
+    <TextView
+        android:id="@+id/text_view_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view_chat_empty"
+        android:gravity="center"
+        android:text="@string/tv_server_error"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/text_view_detail_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_below="@+id/text_view_detail"
+        android:gravity="center"
+        android:text="@string/tv_message_failed_reload"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_refresh"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text_view_detail_dialog"
+        android:layout_margin="@dimen/medium_large_margin"
+        android:layout_marginTop="@dimen/small_margin"
+        android:background="@drawable/bg_shape_primary"
+        android:fontFamily="@font/gs_medium"
+        android:padding="@dimen/small_to_medium_margin"
+        android:text="@string/tv_refresh"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/medium_font_size"
+        />
+</RelativeLayout>

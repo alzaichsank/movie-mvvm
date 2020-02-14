@@ -46,6 +46,7 @@ android {
             resValue "string", "file_provider_authority", "id.alik.movie_mvvm.fileprovider"
             buildConfigField "String", "BASE_URL", BASE_URL_PRODUCTION
             buildConfigField "String", "ENCRYPT_KEY", ENCRYPT_PRODUCTION
+            buildConfigField("String", "MOVIEKEY", API_KEY)
         }
         develop {
             versionNameSuffix "-develop"
@@ -53,6 +54,7 @@ android {
             resValue "string", "file_provider_authority", "id.alik.movie_mvvm.fileprovider.stag"
             buildConfigField "String", "BASE_URL", BASE_URL_DEVELOPMENT
             buildConfigField "String", "ENCRYPT_KEY", ENCRYPT_DEVELOPMENT
+            buildConfigField("String", "MOVIEKEY", API_KEY)
         }
     }
     compileOptions {

@@ -3,13 +3,11 @@ package id.alik.movie_mvvm.data.server
 import id.alik.movie_mvvm.data.server.entity.response.MovieResponse
 import io.reactivex.Observable
 import retrofit2.http.GET
-import retrofit2.http.Header
 import retrofit2.http.Query
 
 interface ApiService {
-    @GET(MOVIE)
+    @GET(POPULAR)
     fun getMovie(
-        @Header("query") query: String,
         @Query("api_key") api_key: String?
     ): Observable<MovieResponse>
 
