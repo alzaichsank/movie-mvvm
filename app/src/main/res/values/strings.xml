@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">Movie-mvvm</string>
+
+    <string name="simple_date_format_file_name">yyyyMMdd_HHmmss</string>
+    <string name="transaction_details_today_format">Today, %1$s</string>
+    <string name="transaction_details_yesterday_format">Yesterday, %1$s</string>
+    <string name="transaction_details_minute_only_format">%1$s m</string>
+    <string name="transaction_details_hour_only_format">%1$s h</string>
+
     <string name="tv_movie">Movie</string>
     <string name="tv_show">Tv Show</string>
     <string name="tv_favorite">Favorite</string>

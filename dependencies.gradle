@@ -164,6 +164,7 @@ ext {
             materialRatingbar        : [group: 'me.zhanghai.android.materialratingbar', name: 'library', version: zhanghaiRatingVersion],
             dotsloader               : [group: 'com.agrawalsuneet.androidlibs', name: 'dotsloader', version: agrawalsuneetLoadingVersion],
             avatarGenerator          : [group: 'com.amulyakhare', name: 'com.amulyakhare.textdrawable', version: avatarGenVersion],
+            jodatime                 : [group: 'net.danlew', name: 'android.joda', version: jodaTimeVersion],
     ]
 
     jwLibraries = [
