@@ -45,7 +45,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/MovieViewModel.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -55,10 +55,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/FragmentTvShow.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tvshow.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceManager.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="e#40#283#0" expanded="true" />
               </folding>
@@ -153,6 +172,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiService.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceManager.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/MovieViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tvshow.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/FragmentTvShow.kt" />
       </list>
     </option>
   </component>
@@ -268,25 +289,6 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="movie_mvvm" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie-mvvm" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="movie_mvvm" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="movie-mvvm" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="movie_mvvm" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="splash" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -347,6 +349,7 @@
       <recent name="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="id.alik.movie_mvvm.ui.main.tvshow" />
       <recent name="id.alik.movie_mvvm.common.utils" />
       <recent name="id.alik.movie_mvvm.data.server" />
       <recent name="id.alik.movie_mvvm.common" />
@@ -456,10 +459,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49918962" visible="true" weight="0.3352181" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49918962" visible="true" weight="0.3352181" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -482,7 +484,7 @@
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="4" weight="0.32956383" />
-      <window_info anchor="right" id="Preview" order="5" weight="0.32956383" />
+      <window_info anchor="right" id="Preview" order="5" visible="true" weight="0.32956383" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -788,7 +790,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceManager.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="e#40#283#0" expanded="true" />
           </folding>
@@ -799,6 +801,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/FragmentTvShow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tvshow.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
