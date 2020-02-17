@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 import id.alik.movie_mvvm.BuildConfig
 import id.alik.movie_mvvm.common.utils.Logger
 import id.alik.movie_mvvm.data.server.ApiServiceManager
-import id.alik.movie_mvvm.data.server.entity.response.MovieResponse
+import id.alik.movie_mvvm.data.server.entity.response.movie.MovieResponse
 
 class MovieViewModel (val apiServiceManager: ApiServiceManager) : ViewModel(){
 

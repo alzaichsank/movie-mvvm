@@ -8,6 +8,7 @@ import id.alik.movie_mvvm.R
 import id.alik.movie_mvvm.common.extension.disableShiftMode
 import id.alik.movie_mvvm.common.utils.Logger
 import id.alik.movie_mvvm.ui.main.home.FragmentHome
+import id.alik.movie_mvvm.ui.main.tvshow.FragmentTvShow
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -50,11 +51,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setToMovie() {
-        loadFragment(FragmentHome(), "")
+        loadFragment(FragmentHome(), FragmentHome.TAG)
     }
 
     private fun setToTv() {
-//        loadFragment(OrderFragment(), "")
+        loadFragment(FragmentTvShow(), FragmentTvShow.TAG)
     }
 
     private fun setToFavorite() {

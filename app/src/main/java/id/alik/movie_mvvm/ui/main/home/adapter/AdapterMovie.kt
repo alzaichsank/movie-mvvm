@@ -10,7 +10,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import id.alik.movie_mvvm.R
 import id.alik.movie_mvvm.common.utils.Constants.URL_POSTER
-import id.alik.movie_mvvm.data.server.entity.response.MovieData
+import id.alik.movie_mvvm.data.server.entity.response.movie.MovieData
 import kotlinx.android.synthetic.main.holder_item_movie.view.*
 
 
@@ -44,7 +44,7 @@ class AdapterMovie(
         return dataItem.size
     }
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: AdapterMovie.ViewHolder, position: Int) {
         holder.bindData(dataItem[position])
     }
 
