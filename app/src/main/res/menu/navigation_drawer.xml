@@ -14,9 +14,9 @@
         android:title="@string/tv_show"
         app:showAsAction="always|withText" />
 
-    <item
-        android:id="@+id/main_menu_favorite"
-        android:icon="@drawable/ic_vect_favorite"
-        android:title="@string/tv_favorite"
-        app:showAsAction="always|withText" />
+<!--    <item-->
+<!--        android:id="@+id/main_menu_favorite"-->
+<!--        android:icon="@drawable/ic_vect_favorite"-->
+<!--        android:title="@string/tv_favorite"-->
+<!--        app:showAsAction="always|withText" />-->
 </menu>

@@ -9,6 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import id.alik.movie_mvvm.R
+import id.alik.movie_mvvm.common.extension.makeGone
 import id.alik.movie_mvvm.common.utils.Constants.TV_TYPE
 import id.alik.movie_mvvm.data.server.entity.response.tv.TvResponse
 import id.alik.movie_mvvm.common.utils.Logger
@@ -16,6 +17,7 @@ import id.alik.movie_mvvm.ui.main.tvshow.adapter.AdapterTv
 import kotlinx.android.synthetic.main.fragment_tvshow.*
 import id.alik.movie_mvvm.service.ViewModelFactory
 import id.alik.movie_mvvm.service.RestRepository
+import kotlinx.android.synthetic.main.layout_shimmer_movie.*
 
 class FragmentTvShow : Fragment(){
     private lateinit var tvViewModel: TvViewModel
@@ -57,6 +59,7 @@ class FragmentTvShow : Fragment(){
         if (isVisible) {
             Logger.debug("cek impelment data ${data.results?.get(0)?.originalNameMovie}")
             this.tvResponse = data
+            shimmer_movie.makeGone()
             getListTv()?.setData(tvResponse?.results!!)
         }
 

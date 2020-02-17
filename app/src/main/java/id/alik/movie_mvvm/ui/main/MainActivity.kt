@@ -26,10 +26,10 @@ class MainActivity : AppCompatActivity() {
                     setToTv()
                     true
                 }
-                R.id.main_menu_favorite -> {
-                    setToFavorite()
-                    true
-                }
+//                R.id.main_menu_favorite -> {
+//                    setToFavorite()
+//                    true
+//                }
                 else -> {
                     setToMovie()
                     true
@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
         val moveTo = when (position) {
             0 -> R.id.main_menu_movie
             1 -> R.id.main_menu_tv
-            2 -> R.id.main_menu_favorite
+//            2 -> R.id.main_menu_favorite
             else -> R.id.main_menu_movie
         }
         navigation.selectedItemId = moveTo

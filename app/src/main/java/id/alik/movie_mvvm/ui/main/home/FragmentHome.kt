@@ -9,6 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import id.alik.movie_mvvm.R
+import id.alik.movie_mvvm.common.extension.makeGone
 import id.alik.movie_mvvm.common.utils.Constants.MOVIE_TYPE
 import id.alik.movie_mvvm.common.utils.Logger
 import id.alik.movie_mvvm.data.server.entity.response.movie.MovieResponse
@@ -16,6 +17,7 @@ import id.alik.movie_mvvm.service.RestRepository
 import id.alik.movie_mvvm.service.ViewModelFactory
 import id.alik.movie_mvvm.ui.main.home.adapter.AdapterMovie
 import kotlinx.android.synthetic.main.fragment_home.*
+import kotlinx.android.synthetic.main.layout_shimmer_movie.*
 
 class FragmentHome : Fragment() {
 
@@ -62,6 +64,7 @@ class FragmentHome : Fragment() {
         if (isVisible) {
             Logger.debug("cek impelment data ${data.results?.get(0)?.originalTitleMovie}")
             this.movieResponse = data
+            shimmer_movie.makeGone()
             getListMovie()?.setData(movieResponse?.results!!)
         }
 

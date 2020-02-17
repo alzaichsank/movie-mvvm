@@ -127,4 +127,5 @@ dependencies {
     implementation libraries.intuitSdp
     implementation libraries.intuitSsp
     implementation libraries.jodatime
+    implementation libraries.shimmer
 }

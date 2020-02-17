@@ -29,6 +29,11 @@
             />
 
         <include
+            layout="@layout/layout_shimmer_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <include
             android:id="@+id/refresh_data"
             layout="@layout/refresh_layout"
             android:visibility="gone"
