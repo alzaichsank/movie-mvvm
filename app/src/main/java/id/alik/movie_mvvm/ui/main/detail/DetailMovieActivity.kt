@@ -18,6 +18,7 @@ import id.alik.movie_mvvm.common.utils.Constants.MOVIE_TYPE
 import id.alik.movie_mvvm.common.utils.Constants.TV_TRAILER_TYPE
 import id.alik.movie_mvvm.common.utils.Constants.TV_TYPE
 import id.alik.movie_mvvm.common.utils.Constants.URL_POSTER
+import id.alik.movie_mvvm.common.utils.Constants.YOUTUBE_URL
 import id.alik.movie_mvvm.common.utils.Logger
 import id.alik.movie_mvvm.data.mapper.DataMapper
 import id.alik.movie_mvvm.domain.entity.DetailData
@@ -113,7 +114,7 @@ class DetailMovieActivity : AppCompatActivity() {
             layoutManager = LinearLayoutManager(context)
             adapter = AdapterTrailer(context) {
                 trailerlData = getListTrailer()?.getDataAt(it)
-                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://youtube.com/watch?v=" + trailerlData?.key))
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse(YOUTUBE_URL + trailerlData?.key))
                 intent.putExtra("name", trailerlData?.name)
                 startActivity(intent)
             }
