@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import id.alik.movie_mvvm.R
 import id.alik.movie_mvvm.common.extension.makeGone
 import id.alik.movie_mvvm.common.utils.Constants.INTENT_EXTRA_DATA
+import id.alik.movie_mvvm.common.utils.Constants.INTENT_EXTRA_FILTER
 import id.alik.movie_mvvm.common.utils.Constants.MOVIE_TYPE
 import id.alik.movie_mvvm.common.utils.Logger
 import id.alik.movie_mvvm.data.server.entity.response.movie.MovieData
@@ -22,13 +23,14 @@ import id.alik.movie_mvvm.service.ViewModelFactory
 import id.alik.movie_mvvm.ui.main.home.adapter.AdapterMovie
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.layout_shimmer_movie.*
-import id.alik.movie_mvvm.ui.main.home.detail.DetailMovieActivity
+import id.alik.movie_mvvm.data.mapper.DataMapper
+import id.alik.movie_mvvm.ui.main.detail.DetailMovieActivity
 
 class FragmentHome : Fragment() {
 
     private lateinit var movieViewModel: MovieViewModel
     private var movieResponse: MovieResponse? = null
-    private var movieData : MovieData?= null
+    private var movieData: MovieData? = null
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -62,10 +64,12 @@ class FragmentHome : Fragment() {
             layoutManager = GridLayoutManager(requireActivity(), 2)
             adapter = AdapterMovie(requireActivity()) {
                 movieData = getListMovie()?.getDataAt(it)
+                val data = DataMapper.transfromMovieDataToDetailData(movieData!!)
                 val intent = Intent(requireActivity(), DetailMovieActivity::class.java).apply {
-                    putExtra(INTENT_EXTRA_DATA, movieData)
+                    putExtra(INTENT_EXTRA_DATA, data)
+                    putExtra(INTENT_EXTRA_FILTER, MOVIE_TYPE)
                 }
-                startActivityForResult(intent, DetailMovieActivity.INTENT_KEY)
+                startActivityForResult(intent,DetailMovieActivity.INTENT_KEY)
                 AnimIntent.Builder(requireActivity()).performSlideToLeft()
             }
         }

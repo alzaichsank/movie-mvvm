@@ -1,5 +1,7 @@
 package id.alik.movie_mvvm.ui.main.tvshow
 
+import alzaichsank.com.intentanimation.AnimIntent
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -13,15 +15,21 @@ import id.alik.movie_mvvm.common.extension.makeGone
 import id.alik.movie_mvvm.common.utils.Constants.TV_TYPE
 import id.alik.movie_mvvm.data.server.entity.response.tv.TvResponse
 import id.alik.movie_mvvm.common.utils.Logger
+import id.alik.movie_mvvm.data.server.entity.response.tv.TvData
 import id.alik.movie_mvvm.ui.main.tvshow.adapter.AdapterTv
 import kotlinx.android.synthetic.main.fragment_tvshow.*
 import id.alik.movie_mvvm.service.ViewModelFactory
 import id.alik.movie_mvvm.service.RestRepository
 import kotlinx.android.synthetic.main.layout_shimmer_movie.*
+import id.alik.movie_mvvm.data.mapper.DataMapper
+import id.alik.movie_mvvm.common.utils.Constants.INTENT_EXTRA_DATA
+import id.alik.movie_mvvm.common.utils.Constants.INTENT_EXTRA_FILTER
+import id.alik.movie_mvvm.ui.main.detail.DetailMovieActivity
 
 class FragmentTvShow : Fragment(){
     private lateinit var tvViewModel: TvViewModel
     private var tvResponse : TvResponse? = null
+    private var tvData: TvData? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         super.onCreateView(inflater, container, savedInstanceState)
@@ -50,7 +58,14 @@ class FragmentTvShow : Fragment(){
             setHasFixedSize(true)
             layoutManager = GridLayoutManager(requireActivity(), 2)
             adapter = AdapterTv(requireActivity()) {
-
+                tvData = getListTv()?.getDataAt(it)
+                val data = DataMapper.transfromTvDataToDetailData(tvData!!)
+                val intent = Intent(requireActivity(), DetailMovieActivity::class.java).apply {
+                    putExtra(INTENT_EXTRA_DATA, data)
+                    putExtra(INTENT_EXTRA_FILTER, TV_TYPE)
+                }
+                startActivityForResult(intent, DetailMovieActivity.INTENT_KEY)
+                AnimIntent.Builder(requireActivity()).performSlideToLeft()
             }
         }
     }

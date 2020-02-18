@@ -8,4 +8,5 @@ object Constants {
     const val TV_TRAILER_TYPE ="TV_TRAILER"
 
     const val INTENT_EXTRA_DATA = "intent.extra.data"
+    const val INTENT_EXTRA_FILTER = "intent.extra.filter"
 }

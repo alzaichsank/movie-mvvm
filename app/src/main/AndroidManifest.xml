@@ -20,7 +20,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.main.home.detail.DetailMovieActivity"
+        <activity android:name=".ui.main.detail.DetailMovieActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".ui.splash.SplashscreenActivity"></activity>
         <activity android:name=".ui.main.MainActivity">

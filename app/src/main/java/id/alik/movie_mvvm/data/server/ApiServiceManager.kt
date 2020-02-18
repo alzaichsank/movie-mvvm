@@ -60,7 +60,9 @@ class ApiServiceManager(
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe({
                     if (it.results != null) {
-                        emitter.onNext(it)
+                        if(it.results?.size ?:0 > 0){
+                            emitter.onNext(it)
+                        }
                     }
                 }, {
                     Logger.debug("cek error : $it")
@@ -78,7 +80,7 @@ class ApiServiceManager(
             ).subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe({
-                    if (it.results != null) {
+                    if(it.results?.size ?:0 > 0){
                         emitter.onNext(it)
                     }
                 }, {
