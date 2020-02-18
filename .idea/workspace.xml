@@ -10,9 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2685a4b5-9e98-47e5-951e-1ac1dd7ae254" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_shimmer_shimmer_0_5_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_rectangle_corner_shimmer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_shimmer_movie.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_alzaichsank_IntentAnimation_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/detail/DetailMovieActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/detail/DetailMovieViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/detail/adapter/AdapterMovieTrailer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/trailer_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/no_images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_movie.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/holder_trailer_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_shimmer_trailer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -25,16 +31,27 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/common/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/common/utils/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/service/ViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/service/ViewModelFactory.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/FragmentHome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/FragmentHome.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/MovieViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/MovieViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/adapter/AdapterMovie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/adapter/AdapterMovie.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/FragmentTvShow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/FragmentTvShow.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tvshow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tvshow.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/navigation_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/navigation_drawer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/adapter/AdapterTv.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/adapter/AdapterTv.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/holder_item_movie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/holder_item_movie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +87,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/detail/DetailMovieActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+              <folding>
+                <element signature="e#48#582#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/movie/MovieResponse.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dependencies.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="147" column="111" selection-start-line="147" selection-start-column="97" selection-end-line="147" selection-end-column="111" />
+            <state relative-caret-position="276">
+              <caret line="146" column="22" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/common/utils/Constants.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -82,39 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1935">
-              <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/FragmentTvShow.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-              <folding>
-                <element signature="e#43#856#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tvshow.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/MainActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="540">
+              <caret line="36" column="28" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -122,29 +166,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/FragmentHome.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="36" />
+            <state relative-caret-position="214">
+              <caret line="67" column="72" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
               <folding>
-                <element signature="e#41#810#0" expanded="true" />
+                <element signature="e#41#1145#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail_movie.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/adapter/AdapterMovie.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-165">
-              <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
+            <state relative-caret-position="322">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="40" />
+              <folding>
+                <element signature="e#9562#9583#0" expanded="true" />
+                <element signature="e#9828#9849#0" expanded="true" />
+                <element signature="e#9987#10009#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,12 +208,17 @@
       <find>joda</find>
       <find>jodaTimeVersion</find>
       <find>rating</find>
-      <find>MovieData</find>
       <find>shimm</find>
       <find>shimmerVersion</find>
+      <find>androidxConstraintVersion</find>
+      <find>MovieData</find>
+      <find>anim</find>
+      <find>movieViewModel</find>
     </findStrings>
     <replaceStrings>
       <replace>TvData</replace>
+      <replace>MovieTrailerData</replace>
+      <replace>movieTrailerViewModel</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -181,14 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/holder_movie_home.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/common/GenericFileProvider.kt" />
-        <option value="$PROJECT_DIR$/app/proguard-rules.pro" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/util/RestUtil.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/ApiService.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/MovieResponse.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/MovieResponse.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceManager.kts" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/util/RepositoryFactory.kts" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceLink.kt" />
@@ -204,34 +242,42 @@
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/service/RestRepository.kt" />
         <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/MovieViewModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/holder_item_movie.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/adapter/MovieAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/favorite/FragmentFavorite.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/MovieViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/tv/TvResponse.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/movie/MovieTrilerResponse.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/tv/TvTrilerResponse.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/tv/TvTrailerResponse.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/movie/MovieTrailerResponse.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiService.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceManager.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/TVViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/TvViewModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/adapter/AdapterMovie.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/adapter/AdapterTv.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/service/ViewModelFactory.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/common/utils/Constants.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/MainActivity.kt" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_shimmer_movie.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/FragmentHome.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tvshow.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceManager.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/MovieViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/FragmentTvShow.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/adapter/AdapterTv.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/holder_item_movie.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/adapter/AdapterMovie.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/detail/DetailMovieViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/service/ViewModelFactory.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/holder_trailer_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/detail/adapter/AdapterMovieTrailer.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_shimmer_trailer.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/FragmentHome.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/common/utils/Constants.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_movie.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/detail/DetailMovieActivity.kt" />
       </list>
     </option>
   </component>
@@ -389,6 +435,16 @@
               <item name="movie_mvvm" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="detail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="movie-mvvm" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="movie_mvvm" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="tvshow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -475,7 +531,7 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
@@ -486,13 +542,14 @@
       <recent name="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="id.alik.movie_mvvm.ui.main.home.detail.adapter" />
+      <recent name="id.alik.movie_mvvm.ui.main.home.detail" />
       <recent name="id.alik.movie_mvvm.ui.main.tvshow" />
       <recent name="id.alik.movie_mvvm.ui.main.favorite" />
       <recent name="id.alik.movie_mvvm.common.utils" />
-      <recent name="id.alik.movie_mvvm.data.server" />
-      <recent name="id.alik.movie_mvvm.common" />
     </key>
     <key name="android.template.packageName">
+      <recent name="id.alik.movie_mvvm.ui.main.home.detail" />
       <recent name="id.alik.movie_mvvm.splash" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -501,9 +558,9 @@
       <recent name="id.alik.movie_mvvm.data.server" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow" />
       <recent name="$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/tv" />
     </key>
@@ -627,76 +684,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/network_config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splashscreen.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3225">
-          <caret line="215" column="38" selection-start-line="215" selection-start-column="38" selection-end-line="215" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
-          <folding>
-            <element signature="e#1244#1284#0" expanded="true" />
-            <element signature="e#2287#2313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/selector_main_menu.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceManager.kts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#29#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/util/RepositoryFactory.kts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceLink.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/service/RestUtil.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="e#36#285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/common/utils/Logger.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -783,28 +770,6 @@
     <entry file="file://$PROJECT_DIR$/app/build/generated/res/resValues/production/debug/values/gradleResValues.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/movie/MovieResponse.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_favorite.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -832,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/movie/MovieTrailerResponse.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiService.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -846,67 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/MovieViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/TvViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/holder_item_movie.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="102" column="48" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/adapter/AdapterMovie.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="36" column="71" selection-start-line="36" selection-start-column="71" selection-end-line="36" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/adapter/AdapterTv.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/service/ViewModelFactory.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/service/RestRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/common/utils/Constants.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -922,20 +823,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_rectangle_corner_shimmer.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dependencies.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="147" column="111" selection-start-line="147" selection-start-column="97" selection-end-line="147" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="129" column="36" selection-start-line="129" selection-start-column="36" selection-end-line="129" selection-end-column="36" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation_drawer.xml">
       <provider editor-type-id="android-designer2" />
@@ -965,14 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tvshow.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -981,22 +860,273 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/FragmentHome.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/service/RestRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="36" />
+        <state relative-caret-position="90">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/service/RestUtil.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
-            <element signature="e#41#810#0" expanded="true" />
+            <element signature="e#36#285#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/adapter/AdapterTv.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/adapter/AdapterMovie.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="66" column="56" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/tvshow/FragmentTvShow.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        <state relative-caret-position="538">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
           <folding>
             <element signature="e#43#856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/service/ViewModelFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/ApiServiceManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/movie/MovieTrailerResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-29/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="6755" column="22" selection-start-line="6755" selection-start-column="22" selection-end-line="6755" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/holder_trailer_list.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#1889#1915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/detail/adapter/AdapterMovieTrailer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+          <folding>
+            <element signature="e#56#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_shimmer_trailer.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+          <folding>
+            <element signature="e#390#3714#0" />
+            <element signature="e#625#2159#0" />
+            <element signature="e#1335#1350#0" expanded="true" />
+            <element signature="e#1393#1408#0" expanded="true" />
+            <element signature="e#1765#1781#0" expanded="true" />
+            <element signature="e#1828#1849#0" expanded="true" />
+            <element signature="e#1901#1921#0" expanded="true" />
+            <element signature="e#1971#1991#0" expanded="true" />
+            <element signature="e#2156#2172#0" expanded="true" />
+            <element signature="e#2219#2240#0" expanded="true" />
+            <element signature="e#2292#2312#0" expanded="true" />
+            <element signature="e#2362#2383#0" expanded="true" />
+            <element signature="e#2433#2455#0" expanded="true" />
+            <element signature="e#2379#4359#0" />
+            <element signature="e#2874#2888#0" expanded="true" />
+            <element signature="e#2614#4330#0" />
+            <element signature="e#3056#3077#0" expanded="true" />
+            <element signature="e#3120#3141#0" expanded="true" />
+            <element signature="e#3183#3204#0" expanded="true" />
+            <element signature="e#3248#3269#0" expanded="true" />
+            <element signature="e#3393#3407#0" expanded="true" />
+            <element signature="e#3473#3488#0" expanded="true" />
+            <element signature="e#3531#3546#0" expanded="true" />
+            <element signature="e#3903#3919#0" expanded="true" />
+            <element signature="e#3966#3987#0" expanded="true" />
+            <element signature="e#4039#4059#0" expanded="true" />
+            <element signature="e#4109#4129#0" expanded="true" />
+            <element signature="e#4294#4310#0" expanded="true" />
+            <element signature="e#4357#4378#0" expanded="true" />
+            <element signature="e#4430#4450#0" expanded="true" />
+            <element signature="e#4500#4521#0" expanded="true" />
+            <element signature="e#4571#4593#0" expanded="true" />
+            <element signature="e#4781#6909#0" />
+            <element signature="e#5011#5025#0" expanded="true" />
+            <element signature="e#5040#6884#0" />
+            <element signature="e#5193#5214#0" expanded="true" />
+            <element signature="e#5257#5278#0" expanded="true" />
+            <element signature="e#5320#5341#0" expanded="true" />
+            <element signature="e#5385#5406#0" expanded="true" />
+            <element signature="e#5530#5544#0" expanded="true" />
+            <element signature="e#5610#5625#0" expanded="true" />
+            <element signature="e#5668#5683#0" expanded="true" />
+            <element signature="e#6040#6056#0" expanded="true" />
+            <element signature="e#6103#6124#0" expanded="true" />
+            <element signature="e#6176#6196#0" expanded="true" />
+            <element signature="e#6246#6266#0" expanded="true" />
+            <element signature="e#6431#6447#0" expanded="true" />
+            <element signature="e#6494#6515#0" expanded="true" />
+            <element signature="e#6567#6587#0" expanded="true" />
+            <element signature="e#6637#6658#0" expanded="true" />
+            <element signature="e#6708#6730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="32" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/detail/DetailMovieViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/MovieViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dependencies.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="146" column="22" selection-start-line="146" selection-start-column="12" selection-end-line="146" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/FragmentHome.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="67" column="72" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
+          <folding>
+            <element signature="e#41#1145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/common/utils/Constants.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/holder_item_movie.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/data/server/entity/response/movie/MovieResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail_movie.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="e#9562#9583#0" expanded="true" />
+            <element signature="e#9828#9849#0" expanded="true" />
+            <element signature="e#9987#10009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/id/alik/movie_mvvm/ui/main/home/detail/DetailMovieActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+          <folding>
+            <element signature="e#48#582#0" expanded="true" />
           </folding>
         </state>
       </provider>

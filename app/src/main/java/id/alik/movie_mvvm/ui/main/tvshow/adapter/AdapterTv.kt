@@ -65,7 +65,7 @@ class AdapterTv(
                 it.timeout(60000)
                 it.centerCrop()
                 it.error(R.drawable.ic_vect_broken_image)
-                it.placeholder(R.drawable.ic_vect_broken_image)
+                it.placeholder(R.drawable.no_images)
             }
             Glide.with(itemView.context)
                 .load(

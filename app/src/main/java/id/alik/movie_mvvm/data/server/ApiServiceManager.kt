@@ -25,6 +25,7 @@ class ApiServiceManager(
                         emitter.onNext(it)
                     }
                 }, {
+                    emitter.onError(it)
                     Logger.debug("cek error : $it")
                 })
         }

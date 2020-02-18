@@ -37,7 +37,7 @@ class FragmentTvShow : Fragment(){
             TvViewModel::class.java
         )
         tvViewModel.getTv()
-        initRecyler()
+        initRecycler()
 
         tvViewModel.tvData.observe(requireActivity(), Observer {
             implementData(it)
@@ -45,7 +45,7 @@ class FragmentTvShow : Fragment(){
         })
     }
 
-    private fun initRecyler() {
+    private fun initRecycler() {
         rv_tvshow.apply {
             setHasFixedSize(true)
             layoutManager = GridLayoutManager(requireActivity(), 2)

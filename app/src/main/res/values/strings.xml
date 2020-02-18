@@ -12,4 +12,10 @@
     <string name="tv_server_error">Server Error</string>
     <string name="tv_message_failed_reload">Communication with the server failed, please refresh</string>
     <string name="tv_refresh">Refresh</string>
+    <string name="release_on">Released:</string>
+    <string name="max_rating">/ 10</string>
+    <string name="overview">Synopsis</string>
+    <string name="language">Language</string>
+    <string name="rate">Rate:</string>
+    <string name="watch_on_youtube">Watch on youtube</string>
 </resources>

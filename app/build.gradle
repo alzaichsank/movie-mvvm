@@ -77,6 +77,8 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     testImplementation(testLibraries.jUnit)
     androidTestImplementation testLibraries.runner
     androidTestImplementation(testLibraries.espresso) {
@@ -128,4 +130,5 @@ dependencies {
     implementation libraries.intuitSsp
     implementation libraries.jodatime
     implementation libraries.shimmer
+    implementation libraries.animIntent
 }
