@@ -122,7 +122,7 @@ class DetailMovieActivity : AppCompatActivity() {
     }
 
     private fun implementData(data: List<TrailerDetailData>) {
-        Logger.debug("cek impelment data ${data?.get(0).name}")
+        Logger.debug("cek impelment data ${data[0].name}")
         this.trailerDetailData = data
         shimmer_trailer.makeGone()
         getListTrailer()?.setData(trailerDetailData!!.toMutableList())
