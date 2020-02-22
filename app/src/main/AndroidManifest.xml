@@ -22,13 +22,15 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".ui.main.detail.DetailMovieActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".ui.splash.SplashscreenActivity"/>
-        <activity android:name=".ui.main.MainActivity">
+        <activity android:name=".ui.splash.SplashscreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".ui.main.MainActivity">
+
         </activity>
 
         <provider
