@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import id.alik.movie_mvvm.R
+import id.alik.movie_mvvm.ui.main.MainActivity
 
 class SplashscreenActivity : AppCompatActivity() {
 
