@@ -1,20 +1,27 @@
 package id.alik.movie_mvvm.ui.main.home
 
-import androidx.lifecycle.ViewModelProviders
-import id.alik.movie_mvvm.common.utils.Constants
+import id.alik.movie_mvvm.data.server.ApiServiceManager
 import id.alik.movie_mvvm.service.RestRepository
-import id.alik.movie_mvvm.service.ViewModelFactory
 import org.junit.Before
 import org.junit.Test
 
 import org.junit.Assert.*
+import org.mockito.Mock
+import org.mockito.MockitoAnnotations
 
 class MovieViewModelTest {
-    private lateinit var viewModel: MovieViewModel
+
+    @Mock
+    lateinit var viewModel: MovieViewModel
+
+    @Mock
+    lateinit var apiServiceManager: ApiServiceManager
 
     @Before
     fun setUp() {
-        viewModel = MovieViewModel(RestRepository.createApiRepository())
+
+        MockitoAnnotations.initMocks(this)
+        viewModel = MovieViewModel(apiServiceManager)
     }
 
     @Test

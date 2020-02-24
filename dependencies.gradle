@@ -19,6 +19,8 @@ ext {
     testJunitVersion = '4.12'
     testRunnerVersion = '1.2.0'
     testEspresoVersion = '3.2.0'
+    testMockito = '2.22.0'
+    testNharmanMock = '1.5.0'
     /*Rx libaray*/
     rxJava2Version = '2.1.9'
     rxJava2AndroidVersion = '2.0.2'
@@ -90,9 +92,12 @@ ext {
     archLifecycleVersion = '2.1.0'
 
     testLibraries = [
-            jUnit   : [group: 'junit', name: 'junit', version: testJunitVersion],
-            runner  : [group: 'androidx.test', name: 'runner', version: testRunnerVersion],
-            espresso: [group: 'androidx.test.espresso', name: 'espresso-core', version: testEspresoVersion],
+            jUnit          : [group: 'junit', name: 'junit', version: testJunitVersion],
+            runner         : [group: 'androidx.test', name: 'runner', version: testRunnerVersion],
+            espresso       : [group: 'androidx.test.espresso', name: 'espresso-core', version: testEspresoVersion],
+            mockitoCore    : [group: 'org.mockito', name: 'mockito-core', version: testMockito],
+            mockitoInline  : [group: 'org.mockito', name: 'mockito-inline', version: testMockito],
+            mockitoNhaarman: [group: 'com.nhaarman', name: 'mockito-kotlin-kt1.1', version: testNharmanMock],
     ]
 
     kotlinLibraries = [

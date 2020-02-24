@@ -19,9 +19,9 @@ class MovieViewModel (val apiServiceManager: ApiServiceManager) : ViewModel(){
     fun getMovie() {
         apiServiceManager
             .emitterMovie(BuildConfig.MOVIEKEY)
-            .doOnError {
-                messageError = it
-            }
+//            .doOnError {
+//                messageError = it
+//            }
             .subscribe {
                 Logger.debug("cek load movie data ${it.results?.get(0)?.originalTitleMovie}")
                 _movieData.postValue(it)
