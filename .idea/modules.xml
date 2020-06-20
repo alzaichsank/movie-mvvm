@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Movie-mvvm.iml" filepath="$PROJECT_DIR$/Movie-mvvm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Movie-mvvm.iml" filepath="$PROJECT_DIR$/Movie-mvvm.iml" group="Movie-mvvm" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Movie-mvvm/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/movie-mvvm.iml" filepath="$PROJECT_DIR$/.idea/movie-mvvm.iml" />
     </modules>
   </component>
